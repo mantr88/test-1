@@ -1,0 +1,2 @@
+const t=document.getElementById("result");const e=t=>{const e=t.split(/\s+/),n=[];e.forEach((t=>{const e={};for(const n of t)e[n]=(e[n]||0)+1;const o=Object.keys(e);for(const t of o)if(1===e[t]){n.push(t);break}}));const o=n.reduce(((t,e)=>(t[e]=(t[e]||0)+1,t)),{});return n.find((t=>1===o[t]))};document.getElementById("myForm").addEventListener("submit",(function(n){n.preventDefault();const o=document.getElementById("textInput").value;console.log(e(o)),t.textContent=e(o)}));
+//# sourceMappingURL=index.73deed48.js.map
